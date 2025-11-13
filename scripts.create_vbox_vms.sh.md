@@ -20,8 +20,8 @@
 # ----------------------------------------------------------------------
 
 # --- 변수 설정 ---
-MASTER_IP="$1"
-DB_IP="$2"
+MASTER_IP="$K8S_MASTER_IP"
+DB_IP="$MYSQL_DB_IP"
 HOST_ONLY_IFACE="vboxnet0"
 NETMASK="255.255.255.0"
 GATEWAY="192.168.1.1" # Host-Only 어댑터의 IP
